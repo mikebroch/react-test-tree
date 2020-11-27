@@ -1,0 +1,37 @@
+.main {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  padding: 10px 5px;
+}
+
+.new_attr {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.tree {
+  width: 800px;
+}
+
+.json {
+  height: 800px;
+  padding: 20px;
+  margin-top: 200px;
+  overflow-y: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form_field {
+  padding: 20px;
+}
