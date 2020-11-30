@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
 
-const Pre = (props) => {
-  const [jsonTreeData, setQwerty] = useState([])
+const Pre = ({ treeData }) => {
+  const [jsonTreeData, setJsonTreeData] = useState([])
 
   useEffect(() => {
-    setQwerty(props.treeData)
-  }, [props])
+    setJsonTreeData(treeData)
+  }, [treeData])
 
   const divStyle = {
     height: '800px',
